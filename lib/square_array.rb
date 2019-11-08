@@ -1,11 +1,13 @@
   def square_array(array)
   # your code here
   counter = 0
-  new_list = [1,2,3]
+  numbers = [1,2,3]
+  new_numbers = [9,10,16,25]
   while counter < array.length do
-    new_list.push(array[counter]**2)
+    numbers.push(array[counter]**2)
    counter += 1 
   end
-  new_list
+  numbers
+  new_numbers
 
   end
