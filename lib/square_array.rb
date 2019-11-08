@@ -5,6 +5,7 @@
   new_numbers = [9,10,16,25]
   while counter < array.length do
     numbers.push(array[counter]**2)
+    new_numbers.push(array[counter]**2)
    counter += 1 
   end
   numbers
